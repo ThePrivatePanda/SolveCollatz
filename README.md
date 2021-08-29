@@ -5,7 +5,7 @@ Solving the collatz conjecture by brute force
 A script aimed to solve each number for the collatz conjecture by brute force
 
 # Purpose of my life
-The solve purpose of this script's life is to learn about increasing efficiency.\n
+The solve purpose of this script's life is to learn about increasing efficiency.
 Suggestions are welcomed :)
 
 # Contact
