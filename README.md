@@ -9,4 +9,4 @@ The solve purpose of this script's life is to learn about increasing efficiency.
 Suggestions are welcomed :)
 
 # Contact
-You can contact me on discord on `Chliste#9712`
+You can contact me on discord on `Koala#9712`
