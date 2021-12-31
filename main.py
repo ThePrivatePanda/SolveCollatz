@@ -1,9 +1,8 @@
-from os import pipe
 import time
 
 stl = []
 try:
-    idk = time.time()
+    starting = time.time()
     for i in range(1, 111111):
         x = i
 
@@ -17,5 +16,5 @@ try:
 except KeyboardInterrupt:
     print(stl)
     print(i)
-    print(time.time()-idk)
+    print(time.time()-starting)
     raise SystemExit
