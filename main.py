@@ -1,20 +1,19 @@
+import threading
 import time
+solved = []
 
-stl = []
-try:
-    starting = time.time()
-    for i in range(1, 111111):
+def workit(start, end):
+    for i in range(start, end):
         x = i
+        nums = []
 
-        while x not in stl:
+        while x != 1 and x not in solved:
             if x % 2 == 0:
                 x = x/2
             else:
                 x = (3*x)+1
-            if x not in stl:
-                stl.append(x)
-except KeyboardInterrupt:
-    print(stl)
-    print(i)
-    print(time.time()-starting)
-    raise SystemExit
+            nums.append(x)
+
+        solved.append(nums)
+
+workit(1, 1000)
